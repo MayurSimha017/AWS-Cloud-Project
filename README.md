@@ -178,33 +178,47 @@ Important considerations:
 
 ## 10. Screenshots & Evidence
 
-The following screenshots provide evidence of the AWS configuration. All screenshots are retained in the repository.
+## 10. Screenshots & Evidence
+
+### Architecture
+
+![AWS CloudOps Architecture](architecture/aws-cloudops-architecture.png)
 
 ### VPC & Networking
 
-![VPC Overview](screenshots/01-vpc/vpc-overview.png)
+![VPC Overview](Screenshots/01-vpc/vpc-overview.png)
 
-![Subnet Overview](screenshots/02-networking/subnet-overview.png)
+![Subnet Overview](Screenshots/02-networking/subnet-overview.png)
 
-![Public Route Table](screenshots/02-networking/public-rt.png)
+![Public Route Table](Screenshots/02-networking/public-rt.png)
 
-![Private Database Route](screenshots/02-networking/private-db-route.png)
+![Private Database Route](Screenshots/02-networking/private-db-route.png)
 
 ### Security Groups
 
-![Security Group Overview](screenshots/03-security/securitygroup-overview.png)
+![Security Group Overview](Screenshots/03-security/securitygroup-overview.png)
 
-![Database Security Group](screenshots/03-security/database-security-group.png)
+![Database Security Group](Screenshots/03-security/database-security-group.png)
 
 ### Amazon RDS
 
-![RDS Setup Confirmation](screenshots/04-database/rds-setup-confirmed.png)
+![RDS Setup Confirmation](Screenshots/04-database/rds-setup-confirmed.png)
+
+![RDS Backup Configuration](Screenshots/04-database/rds-backup.png)
 
 ### Amazon EC2
 
-![EC2 Instance Details](screenshots/05-compute/ec2-details.png)
+![EC2 Instance Details](Screenshots/05-compute/ec2-details.png)
 
-![EC2 Instance Connect](screenshots/05-compute/ec2-instance-connect.png)
+![EC2 Instance Connect](Screenshots/05-compute/ec2-instance-connect.png)
+
+### Application Screenshots
+
+The following screenshots document the local Flask application's interface and local health-check pages. They are not evidence of cloud deployment.
+
+![Application Dashboard](Screenshots/06-application/app-dashboard.png)
+
+![Application Registration](Screenshots/06-application/app-registration-page.png)
 
 ## 11. Project Structure
 
